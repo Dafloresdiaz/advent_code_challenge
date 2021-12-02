@@ -10,6 +10,14 @@ def obtain_input():
     return input
 
 def calculate_depth():
+    """
+    Decription: Function to calculate the depth and horizontal position.
+    To calculate this, the input has the direction and we need to follow this instructions: 
+        - forward X increases the horizontal position by X units.
+        - down X increases the depth by X units.
+        - up X decreases the depth by X units.
+    Return: The product of the horizontal position and depth
+    """
     horizontal_position = 0
     depth = 0
     values = obtain_input()
@@ -26,6 +34,16 @@ def calculate_depth():
     return (horizontal_position * depth)
 
 def calculate_depth_with_aim():
+    """
+    Decription: Function to calculate the depth and horizontal position.
+    To calculate this, the input has the direction and we need to follow this instructions: 
+        - down X increases your aim by X units.
+        - up X decreases your aim by X units.
+        - forward X does two things:
+            - It increases your horizontal position by X units.
+            - It increases your depth by your aim multiplied by X.
+    Return: The product of the horizontal position and depth
+    """
     horizontal_position = 0
     depth = 0
     aim = 0
