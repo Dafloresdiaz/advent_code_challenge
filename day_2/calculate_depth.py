@@ -25,5 +25,23 @@ def calculate_depth():
     
     return (horizontal_position * depth)
 
+def calculate_depth_with_aim():
+    horizontal_position = 0
+    depth = 0
+    aim = 0
+    values = obtain_input()
+
+    for value in values:
+        direction_value = value.split(" ")
+        if direction_value[0] == 'forward':
+            horizontal_position += int(direction_value[1])
+            depth += aim * int(direction_value[1])
+        elif direction_value[0] == 'down':
+            aim += int(direction_value[1])
+        elif direction_value[0] == 'up':
+            aim -= int(direction_value[1])
+    return (horizontal_position * depth)
+
 
 print(calculate_depth())
+print(calculate_depth_with_aim())
