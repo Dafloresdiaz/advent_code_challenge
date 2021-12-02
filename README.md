@@ -1,4 +1,6 @@
 # Advent Code Challenge 2021 :christmas_tree:
+![GitHub last commit](https://img.shields.io/github/last-commit/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
+![GitHub watchers](https://img.shields.io/github/watchers/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
 
 * Repo to try to do/solve all the challenges from the Advent Code Event 2021.
 * Main programming language: Python.
