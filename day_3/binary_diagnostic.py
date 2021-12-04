@@ -46,7 +46,7 @@ def obtain_common_and_least_common():
     return power_consuption
 
 
-def obtain_oxygen(vertical_values, normal_values, change_bit = 0):
+def obtain_oxygen_or_cotwo(vertical_values, normal_values, change_bit = 0, mood = "most"):
     """
     Description: Function to obtain the oxygen ussing the different bit criteria
     Return: A list with the last value and change it to decimal
@@ -54,46 +54,25 @@ def obtain_oxygen(vertical_values, normal_values, change_bit = 0):
     bit = Counter(vertical_values[0])
     max_value = max(bit, key=bit.get)
     min_value = min(bit, key=bit.get)
+    value = '0' if max_value == min_value else min_value
 
-    if (max_value == min_value):
-        max_value = '1'
-    oxygen_reduction = []
-    for value in normal_values:
-        if value[change_bit] == max_value:
-            oxygen_reduction.append(value)
-    if len(oxygen_reduction) == 1:
-        print(int(oxygen_reduction[0], 2))
+    if mood == "most":
+        value = '1' if max_value == min_value else max_value
+    bits_reduction = []
+    for value_string in normal_values:
+        if value_string[change_bit] == value:
+            bits_reduction.append(value_string)
+    if len(bits_reduction) == 1:
+        print(int(bits_reduction[0], 2))
     else:
         change_bit += 1
-        obtain_oxygen([obtain_input_vertical(oxygen_reduction)[change_bit]], oxygen_reduction, change_bit)
-
-def obtain_cotwo(vertical_values, normal_values, change_bit = 0):
-    """
-    Description: Function to obtain the CO2 ussing the different bit criteria
-    Return: A list with the last value and change it to decimal
-    """
-    bit = Counter(vertical_values[0])
-    max_value = max(bit, key=bit.get)
-    min_value = min(bit, key=bit.get)
-
-    if (max_value == min_value) :
-        min_value = '0'
-    cotwo_reduction = []
-    for value in normal_values:
-        if value[change_bit] == min_value:
-            cotwo_reduction.append(value)
-
-    if len(cotwo_reduction) == 1:
-        print(int(cotwo_reduction[0], 2))
-    else:
-        change_bit += 1
-        obtain_cotwo([obtain_input_vertical(cotwo_reduction)[change_bit]], cotwo_reduction, change_bit)
-    
+        mood = 'least' if mood == "least" else "most"
+        obtain_oxygen_or_cotwo([obtain_input_vertical(bits_reduction)[change_bit]], bits_reduction, change_bit, mood)
 
 print(obtain_common_and_least_common())
 vertical_values = [obtain_input_vertical(None)[0]]
 normal_values = obtain_input()
-mood = 'most'
-obtain_oxygen(vertical_values, normal_values)
+obtain_oxygen_or_cotwo(vertical_values, normal_values, 0)
 print("-------------")
-obtain_cotwo(vertical_values, normal_values,0)
+mood = 'least'
+obtain_oxygen_or_cotwo(vertical_values, normal_values,0, mood)
