@@ -8,10 +8,11 @@
 * If you complete the exercise of the day it will give you stars.
 * If you want to know more about the event, you can visit the official page: https://adventofcode.com/
 # Status
-| Exercise | Completed    | Link                                |
-| -------- | ------------ | ----------------------------------- | 
-| Day 1    | :star::star: | https://adventofcode.com/2021/day/1 |
-| Day 2    | :star::star: | https://adventofcode.com/2021/day/2 |
+| Exercise | Completed    | Link                                 |
+| -------- | ------------ | ------------------------------------  | 
+| Day 1    | :star: :star: | https://adventofcode.com/2021/day/1 |
+| Day 2    | :star: :star: | https://adventofcode.com/2021/day/2 |
+| Day 2    | :star: :star: | https://adventofcode.com/2021/day/3 |
 ## Instructions:
 * To check the solutions for each day you can enter to folder of the day.
 * Each day will have a README file to explain the problem.
