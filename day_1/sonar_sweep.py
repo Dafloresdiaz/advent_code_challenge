@@ -1,6 +1,6 @@
 def eliminate_space_character():
     """
-    Decription: Function to obtain the values form the txt file, handle the "\n" character at the end of the string
+    Description: Function to obtain the values form the txt file, handle the "\n" character at the end of the string
     Return: A list of integer values
     """
     with open("input.txt") as f:
@@ -11,7 +11,7 @@ def eliminate_space_character():
 
 def sonar_sweep_part_one(values = None):
     """
-    Decription: Function to obtain the total count of increments from the input.
+    Description: Function to obtain the total count of increments from the input.
                 The input is coming from a txt file.
     Return: Integer value to know the increments from the input
     """
@@ -26,7 +26,7 @@ def sonar_sweep_part_one(values = None):
 
 def sonar_sweep_part_two():
     """
-    Decription: Function to obtain the total count of increments, the increments are calculate by 3 values,
+    Description: Function to obtain the total count of increments, the increments are calculate by 3 values,
                 from the input.
                 The input is coming from a txt file.
     Return: Integer value to know the increments from the input

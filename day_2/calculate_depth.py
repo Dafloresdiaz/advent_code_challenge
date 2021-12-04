@@ -1,6 +1,6 @@
 def obtain_input():
     """
-    Decription: Function to obtain the values form the txt file, handle the "\n" character at the end of the string
+    Description: Function to obtain the values form the txt file, handle the "\n" character at the end of the string
     Return: A list of string values
     """
     with open("input.txt") as f:
@@ -11,7 +11,7 @@ def obtain_input():
 
 def calculate_depth():
     """
-    Decription: Function to calculate the depth and horizontal position.
+    Description: Function to calculate the depth and horizontal position.
     To calculate this, the input has the direction and we need to follow this instructions: 
         - forward X increases the horizontal position by X units.
         - down X increases the depth by X units.
@@ -35,7 +35,7 @@ def calculate_depth():
 
 def calculate_depth_with_aim():
     """
-    Decription: Function to calculate the depth and horizontal position.
+    Description: Function to calculate the depth and horizontal position.
     To calculate this, the input has the direction and we need to follow this instructions: 
         - down X increases your aim by X units.
         - up X decreases your aim by X units.
