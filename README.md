@@ -1,4 +1,4 @@
-# Advent Code Challenge 2021 :christmas_tree:
+# Advent Code Challenge 2022 :christmas_tree:
 ![GitHub last commit](https://img.shields.io/github/last-commit/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
 
