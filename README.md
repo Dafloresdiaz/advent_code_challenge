@@ -2,10 +2,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/Dafloresdiaz/advent_code_challenge?style=for-the-badge)
 
-* Repo to try to do/solve all the challenges from the Advent Code Event 2021.
+* Repo to try to do/solve all the challenges from the Advent Code Event 2022.
 * Main programming language: Python.
   * I will try to solve the same issues but wih Go.
-* If you complete the exercise of the day it will give you stars.
 * If you want to know more about the event, you can visit the official page: https://adventofcode.com/
 ## Status
 | Exercise | Completed    | Link                                 |
