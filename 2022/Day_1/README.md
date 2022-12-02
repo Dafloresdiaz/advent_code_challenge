@@ -1,4 +1,4 @@
-# Advent Code Challenge 2021 :christmas_tree:
+# Advent Code Challenge 2022 :christmas_tree:
 
 ## Day 1: Calorie Counting
 
