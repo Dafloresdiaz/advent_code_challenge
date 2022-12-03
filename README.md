@@ -10,6 +10,7 @@
 | Exercise | Completed    | Link                                 |
 | -------- | ------------ | ------------------------------------ |
 | Day 1    | :star: :star: | https://adventofcode.com/2022/day/1 |
+| Day 2    | :star: :star: | https://adventofcode.com/2022/day/2 |
 
 # Advent Code Challenge 2021 :christmas_tree:
 ## Status
