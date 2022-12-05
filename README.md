@@ -12,6 +12,7 @@
 | Day 1    | :star: :star: | https://adventofcode.com/2022/day/1 |
 | Day 2    | :star: :star: | https://adventofcode.com/2022/day/2 |
 | Day 3    | :star: :star: | https://adventofcode.com/2022/day/3 |
+| Day 4    | :star: :star: | https://adventofcode.com/2022/day/4 |
 
 # Advent Code Challenge 2021 :christmas_tree:
 ## Status
