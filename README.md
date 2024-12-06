@@ -6,6 +6,14 @@
 * Main programming language: Python.
   * I will try to solve the same issues but wih Go.
 * If you want to know more about the event, you can visit the official page: https://adventofcode.com/
+
+# Advent Code Challenge 2024 :christmas_tree:
+## Status
+| Exercise | Completed    | Link                                 |
+| -------- | ------------ | ------------------------------------ |
+| Day 1    | :star: :star: | https://adventofcode.com/2024/day/1 |
+
+# Advent Code Challenge 2022 :christmas_tree:
 ## Status
 | Exercise | Completed    | Link                                 |
 | -------- | ------------ | ------------------------------------ |
@@ -22,6 +30,7 @@
 | Day 2    | :star: :star: | https://adventofcode.com/2021/day/2 |
 | Day 3    | :star: :star: | https://adventofcode.com/2021/day/3 |
 | Day 4    | :star: :star: | https://adventofcode.com/2021/day/4 |
+
 ## Instructions:
 * To check the solutions for each day you can enter to folder of the day.
 * Each day will have a README file to explain the problem.
